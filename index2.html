@@ -20,55 +20,67 @@
   </head>
   <body>
     <!-- First page -->
+    <div class="first-container">
+      <header>
 
-    <div class="main-nav pe-5 ps-5">
-      <nav class="navbar navbar-expand-md navbar-dark">
-        <div class="container-fluid">
-
-          <a class="navbar-brand" href="#">
-            <img src="images/logo.png" alt="logo" class="rounded-circle w-25 h-25">
-          </a>
-          <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo03">
-            <ul class="navbar-nav mb-2 mb-lg-0 float-end">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Achievement</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Blogs</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Contacts</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-  </div>
     
+        <nav class="navbar navbar-expand-lg pt-3 ">
+            <div class="container ">
+             <a href="#logo" class="navbar-brand">
+                 <span class="fw-semibold text-white ">
+                   <img src="images/logo.png" alt="" class="w-25 h-25 rounded-circle">
+                 </span>
+             </a>
+             <!-- toggle button for mobile nav -->
+             <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" 
+             data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon navbar-dark"></span>
+         </button>
+          <!-- Nav links -->
+         <div class="collapse navbar-collapse justify-content-end text-align-center"   id="main-nav">
+             <ul class="navbar-nav mt-3 fw-40">
+               <li class="nav-item">
+                 <a class="nav-link active text-white" aria-current="page" >Home</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link text-white " href="#about">About</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link text-white" href="#project">Projects</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link text-white" href="#achievement">Achievement</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#blogs">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#contacts">Contacts</a>
+              </li>
+    
+           
+               
+             </ul>
+           </div>
+        </div>
+     </nav>
+      </header>
+    </div>
+    </div>
 
-    <!-- Second page -->
+  <!-- Second page -->
 
     <div class="container">
         <div class="row">
          <div class="col-12 text-center fw-bold pt-5 fs-1">About us</div>
         </div>
         <div class="row bg-white">
-          <div class="col text-uppercase text-secondary text-center">
-            An information about me
+          <div class="col text-uppercase text-secondary text-center pt-2 ">
+            
+            <i class="fa-solid fa-horizontal-rule text-red"></i> An information about me
           </div>
         </div>
+        
         <div class="row pt-5">
             <div class="col-lg-6 col-12">
                 <div class="text-center pt-5 fs-1 text-uppercase p-1 fw-bold">
@@ -147,12 +159,12 @@
              <img src="images/image9.png" alt="" class=" pt-5 h-25 img-fluid w-100 ">
             </div>
              <div class="col-4">
-               <img src="images/image6.png" alt="" class="img-fluid w-100 " >
+               <img src="images/image6.png" alt="" class="img-fluid w-100  " >
                <img src="images/image7.png"class =" pt-5 img-fluid w-100 " >
                <img src="images/image10.png" alt="" class="pt-5 w-100 img-fluid" >
             </div>
             <div class="col-4">
-              <img src="images/image7.png" alt="" class="img-fluid h-25 w-100">
+              <img src="images/image19.jpg" alt="" class="img-fluid h-25 w-100">
               <img src="images/image8.png" class="pt-5 h-75  img-fluid w-100">
             </div>
         </div>
@@ -317,7 +329,7 @@
               <div class="col-6 p-2">
                 <form>
                   <label for="exampleFormControlInput1"class="pb-3 ps-2 text-black-50 fw-bold">Your Name</label>
-    <input type="name" class="form-control p-3" id="exampleFormControlInput1" >
+    <input type="text" class="form-control p-3" id="exampleFormControlInput1" >
               </div>
                 
                   <div class="col-6 p-2">
@@ -336,7 +348,7 @@
                 
                   <div class="col-6 p-2">
                     <label for="exampleFormControlInput1" class="pb-3 ps-2 text-black-50 fw-bold">Event date </label>
-                    <input type="number" class="form-control p-3" id="exampleFormControlInput1" >
+                    <input type="dater" class="form-control p-3" id="exampleFormControlInput1" >
                 </label>
               </form>
               </div>
@@ -386,8 +398,8 @@
         </div>
       </div>
       </div>
-      <div class="bg-dark">
-        <div class="text-white text-capitalize ps-5">&copy 2021 Love journam photography. All rights reserved.Privacy policy</div>
+      <div class="bg-dark ">
+        <div class="text-white text-capitalize ps-5 ">&copy 2021 Love journam photography. All rights reserved.Privacy policy</div>
       </div>
     </div>
 
