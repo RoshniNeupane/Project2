@@ -26,3 +26,28 @@ Line-height: 20px;
 
 
 }
+.line{
+  color: #C19EA2;
+  font-style: bold;
+  width: 100px;
+}
+hr {
+  margin: 1rem 0;
+  /* color: inherit; */
+  border: 5;
+  border-top: var(--bs-border-width) solid;
+  opacity: 16.25;
+  height: 4px;
+  background: #C19EA2;
+}
+.lines{
+  display: flex;
+  justify-content: center;
+  
+}
+.line3{
+  color: #C19EA2;
+  font-style: bold;
+  width: 50px;
+  margin-top: -6px;
+}
